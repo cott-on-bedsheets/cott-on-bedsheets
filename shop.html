@@ -21,7 +21,7 @@
     .products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:24px}.product{background:var(--ivory);border:1px solid var(--line);border-radius:25px;overflow:hidden;box-shadow:0 10px 30px rgba(65,28,18,.06)}.product-image{height:285px;position:relative;overflow:hidden;background:#eaded4}.product-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.product:hover .product-image img{transform:scale(1.035)}.art-label{position:absolute;left:16px;bottom:15px;background:rgba(76,31,22,.88);color:#fff;padding:7px 12px;border-radius:999px;font-size:.66rem;font-weight:800;letter-spacing:.06em}.product-body{padding:22px}.product h2{font-size:1.15rem;color:var(--brown);margin-bottom:7px}.product-meta{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0 10px}.tag{display:inline-flex;align-items:center;border:1px solid var(--line);background:#fff7ed;color:var(--brown);padding:5px 9px;border-radius:999px;font-size:.66rem;font-weight:850;letter-spacing:.03em}.price-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:10px 0 2px}.price{font-size:1.2rem;font-weight:900;color:var(--brown)}.price-old{text-decoration:line-through;color:#8b756c;font-size:.82rem;font-weight:700;margin-right:7px}.final-label{font-size:.66rem;font-weight:800;color:#6b5b54;display:block;margin-top:2px}.discount{font-size:.72rem;font-weight:900;color:#315526;background:#e6f2df;padding:5px 8px;border-radius:999px}.pair-note{font-size:.72rem!important;min-height:auto!important;color:#76564b!important;margin:0 0 4px!important}.product p{font-size:.86rem;color:#6b5b54;min-height:52px}.product-controls{display:grid;grid-template-columns:92px 1fr;gap:9px;margin-top:17px}.qty{border:1px solid #d9c8bf;background:white;border-radius:11px;padding:12px 10px;color:var(--ink)}.select-btn{width:100%;border:0;background:var(--brown);color:white;padding:13px 18px;border-radius:999px;font-weight:800;cursor:pointer;transition:.2s}.select-btn:hover{background:var(--dark);transform:translateY(-1px)}
     .cart-panel{position:fixed;right:18px;top:78px;width:min(410px,calc(100vw - 36px));max-height:calc(100vh - 96px);background:var(--ivory);border:1px solid var(--line);border-radius:24px;box-shadow:0 22px 60px rgba(65,28,18,.22);z-index:60;display:none;flex-direction:column;overflow:hidden}.cart-panel.open{display:flex}.cart-head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.cart-head h3{color:var(--brown);font-size:1.15rem}.close-cart{border:0;background:none;color:var(--brown);font-size:1.4rem;cursor:pointer}.cart-items{padding:14px 18px;overflow:auto;display:grid;gap:12px}.cart-item{display:grid;grid-template-columns:65px 1fr auto;gap:11px;align-items:center;background:white;border:1px solid var(--line);border-radius:15px;padding:9px}.cart-item img{width:65px;height:65px;object-fit:cover;border-radius:10px}.cart-item h4{font-size:.82rem;color:var(--brown)}.cart-item p{font-size:.72rem;color:#76645d}.remove{border:0;background:#f6e4dc;color:var(--brown);border-radius:9px;padding:6px 8px;cursor:pointer;font-size:.7rem;font-weight:800}.cart-empty{padding:30px 12px;text-align:center;color:#78665f;font-size:.85rem}.cart-foot{padding:15px 18px;border-top:1px solid var(--line);background:#fffaf5}.cart-foot strong{color:var(--brown)}.cart-foot-note{font-size:.73rem;color:#76645d;margin:4px 0 12px}.checkout-btn{width:100%;border:0;background:var(--peach);color:var(--dark);padding:13px 18px;border-radius:999px;font-weight:900;cursor:pointer}
     .checkout{margin-top:72px;background:var(--ivory);border-radius:30px;padding:42px;box-shadow:var(--shadow);border:1px solid var(--line)}.checkout-grid{display:grid;grid-template-columns:.76fr 1.24fr;gap:44px;align-items:start}.checkout-copy h2{font-size:2.25rem;line-height:1.1;color:var(--brown);margin:9px 0 15px}.checkout-copy p{color:#6b5b54}.order-note{margin-top:22px;padding:16px 18px;background:#f8e1d2;border-left:4px solid var(--peach);border-radius:10px;font-size:.82rem;color:#60463c}.checkout-summary{margin-top:20px;background:white;border:1px solid var(--line);border-radius:16px;padding:15px}.checkout-summary h4{color:var(--brown);margin-bottom:8px}.summary-line{display:flex;justify-content:space-between;gap:15px;padding:7px 0;border-bottom:1px dashed #dfcec4;font-size:.8rem}.summary-line:last-child{border-bottom:0}.summary-total{font-weight:850;color:var(--brown)}
-    form{display:grid;gap:14px}.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{font-size:.76rem;font-weight:800;color:var(--brown);display:grid;gap:6px}input,select,textarea{width:100%;border:1px solid #d9c8bf;background:white;border-radius:11px;padding:12px 13px;color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--terracotta);box-shadow:0 0 0 3px rgba(156,74,49,.1)}textarea{min-height:100px;resize:vertical}.payment-step{background:#fff7ed;border:1px solid #efd3bd;border-radius:18px;padding:20px;margin-top:4px}.payment-step h3{color:var(--brown);margin-bottom:6px}.payment-step p{font-size:.82rem;color:#6b5b54}.payment-amount{font-size:1.05rem;font-weight:900;color:var(--brown);margin:10px 0 14px}.qr-wrap{display:grid;place-items:center;background:white;border:1px dashed #c8a493;border-radius:15px;padding:18px;margin:12px 0}.qr-wrap img{width:min(230px,72vw);aspect-ratio:1;object-fit:contain}.qr-placeholder{width:min(230px,72vw);aspect-ratio:1;display:grid;place-items:center;text-align:center;border:3px dashed #b28a79;border-radius:15px;color:var(--brown);font-weight:900;letter-spacing:.06em;padding:20px}.payment-id{font-size:.75rem;color:#6d5a53;text-align:center;margin-top:7px}.unlock{border:1px solid #c9a48f;background:white;color:var(--brown);padding:11px 15px;border-radius:999px;font-weight:850;cursor:pointer}.proof-area{display:none;margin-top:14px;padding-top:14px;border-top:1px solid #ead4c7}.proof-area.visible{display:grid;gap:12px}.proof-help{font-size:.73rem!important;color:#6b5b54!important}.submit{border:0;background:var(--peach);color:var(--dark);padding:14px 20px;border-radius:999px;font-weight:900;cursor:pointer;margin-top:4px}.submit:disabled{opacity:.45;cursor:not-allowed}.success{display:none;background:var(--green-bg);color:var(--green);border:1px solid #b9d5ab;padding:14px 16px;border-radius:12px;font-size:.85rem;margin-bottom:12px}.small-note{font-size:.72rem;color:#7b6861}
+    form{display:grid;gap:14px}.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{font-size:.76rem;font-weight:800;color:var(--brown);display:grid;gap:6px}input,select,textarea{width:100%;border:1px solid #d9c8bf;background:white;border-radius:11px;padding:12px 13px;color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--terracotta);box-shadow:0 0 0 3px rgba(156,74,49,.1)}textarea{min-height:100px;resize:vertical}.payment-step{background:#fff7ed;border:1px solid #efd3bd;border-radius:18px;padding:20px;margin-top:4px}.payment-step h3{color:var(--brown);margin-bottom:6px}.payment-step p{font-size:.82rem;color:#6b5b54}.payment-amount{font-size:1.05rem;font-weight:900;color:var(--brown);margin:10px 0 14px}.qr-wrap{display:grid;place-items:center;background:white;border:1px dashed #c8a493;border-radius:15px;padding:18px;margin:12px 0}.qr-wrap img{width:min(230px,72vw);aspect-ratio:1;object-fit:contain}.qr-box{width:min(260px,78vw);min-height:260px;display:grid;place-items:center;background:#fff;padding:10px;border-radius:12px}.qr-box canvas,.qr-box img{width:100%!important;height:auto!important;image-rendering:auto}.qr-placeholder{width:min(230px,72vw);aspect-ratio:1;display:grid;place-items:center;text-align:center;border:3px dashed #b28a79;border-radius:15px;color:var(--brown);font-weight:900;letter-spacing:.06em;padding:20px}.upi-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:12px}.upi-open{border:0;background:var(--brown);color:#fff;padding:11px 16px;border-radius:999px;font-weight:850;cursor:pointer}.upi-open:disabled{opacity:.45;cursor:not-allowed}.payment-lock{font-size:.74rem;color:#5f514b;text-align:center;margin-top:10px}.payment-id{font-size:.75rem;color:#6d5a53;text-align:center;margin-top:7px}.unlock{border:1px solid #c9a48f;background:white;color:var(--brown);padding:11px 15px;border-radius:999px;font-weight:850;cursor:pointer}.proof-area{display:none;margin-top:14px;padding-top:14px;border-top:1px solid #ead4c7}.proof-area.visible{display:grid;gap:12px}.proof-help{font-size:.73rem!important;color:#6b5b54!important}.submit{border:0;background:var(--peach);color:var(--dark);padding:14px 20px;border-radius:999px;font-weight:900;cursor:pointer;margin-top:4px}.submit:disabled{opacity:.45;cursor:not-allowed}.success{display:none;background:var(--green-bg);color:var(--green);border:1px solid #b9d5ab;padding:14px 16px;border-radius:12px;font-size:.85rem;margin-bottom:12px}.small-note{font-size:.72rem;color:#7b6861}
     footer{background:var(--dark);color:#ead3ca;padding:34px 24px;text-align:center;font-size:.78rem}footer strong{color:white;letter-spacing:.12em}
     @media(max-width:900px){.products{grid-template-columns:1fr 1fr}.checkout-grid{grid-template-columns:1fr}.category-heading{align-items:start;flex-direction:column}.category-heading p{text-align:left}}
     @media(max-width:600px){.products{grid-template-columns:1fr}.wrap{padding:55px 18px}.checkout{padding:27px 20px}.row{grid-template-columns:1fr}.hero{padding:62px 18px 70px}.back{display:none}.nav{padding:13px 16px}.brand strong{font-size:1.18rem}.brand small{font-size:.9rem}}
@@ -113,11 +113,13 @@
 <label>Order notes<textarea name="message" placeholder="Any colour, design or delivery notes?"></textarea></label>
 <div class="payment-step">
 <h3>Step 1 — Pay by UPI QR</h3>
-<p>Scan the Cott-On QR code with your UPI app and pay the amount communicated for your cart.</p>
-<div class="payment-amount">Amount to pay: <span id="amountDue">As confirmed by Cott-On</span></div>
-<div class="qr-wrap"><div class="qr-placeholder" id="qrPlaceholder">YOUR UPI QR<br/>WILL APPEAR HERE</div><img alt="Cott-On UPI QR code" id="qrImage" src="upi-qr.png" style="display:none"/></div>
-<div class="payment-id" id="upiIdText">UPI ID: Add your Cott-On UPI ID in the shop settings.</div>
-<button class="unlock" id="paidButton" onclick="unlockProof()" type="button">I’ve completed the payment</button>
+<p>Scan the dynamically generated Cott-On QR code with Google Pay, PhonePe, Paytm, BHIM, or another compatible UPI app. The QR contains the Cott-On UPI ID, payee name, and your exact order amount.</p>
+<div class="payment-amount">Exact amount to pay: <span id="amountDue">₹0</span></div>
+<div class="qr-wrap"><div class="qr-box" id="qrBox" aria-label="Dynamic UPI payment QR code"><div class="qr-placeholder" id="qrPlaceholder">ADD ITEMS TO YOUR CART<br/>TO GENERATE YOUR PAYMENT QR</div><div id="qrCode" style="display:none"></div></div></div>
+<div class="payment-id" id="upiIdText">UPI ID: Configure your UPI ID below in the website code.</div>
+<div class="payment-id" id="upiNameText">Payee: Configure your name below in the website code.</div>
+<div class="payment-lock" id="paymentLockText">The QR is generated for this exact order total. Do not pay a different amount.</div>
+<div class="upi-actions"><button class="upi-open" id="upiOpenButton" onclick="openUPIApp()" type="button" disabled>Open UPI App to Pay</button><button class="unlock" id="paidButton" onclick="unlockProof()" type="button">I’ve completed the payment</button></div>
 <div class="proof-area" id="proofArea">
 <label>Payment screenshot <input accept="image/png,image/jpeg,image/webp" id="paymentProof" name="payment_proof" required="" type="file"/></label>
 <label>UPI transaction / UTR reference <input id="utr" name="utr" placeholder="Enter the UTR / transaction reference" required=""/></label>
@@ -132,11 +134,16 @@
 </section>
 </main>
 <footer><strong>COTT-ON BEDSHEETS</strong><br/><span>Sleep in Comfort. Live in Colour.</span></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     const CART_KEY='cotton-cart-v3';
     let cart=JSON.parse(localStorage.getItem(CART_KEY)||'[]');
-    const QR_FILE='upi-qr.png';
+    // ===== COTT-ON UPI SETTINGS =====
+    // Replace these two values with your real personal UPI details before publishing.
+    // These values are public because they are embedded in the payment QR.
     const UPI_ID='yelsangikarreshma@okicici';
+    const UPI_NAME='RESHMA SUNIL YELSANGIKAR';
+    const UPI_CURRENCY='INR';
 
     function saveCart(){localStorage.setItem(CART_KEY,JSON.stringify(cart));renderCart();renderSummary()}
     function addToCart(name,category,image,qty,price,discount,size){
@@ -155,8 +162,8 @@
     }
     function renderSummary(){
       const el=document.getElementById('summaryLines');
-      if(!cart.length){el.innerHTML='<div class="summary-line"><span>No items selected</span><span>—</span></div>';return}
-      const total=cart.reduce((s,x)=>s+(Number(x.price||0)*x.qty),0); el.innerHTML=cart.map(x=>`<div class="summary-line"><span>${escapeHtml(x.name)}<br><small>${escapeHtml(x.category)} · ${escapeHtml(x.size||'')} · Qty ${x.qty}</small></span><span>₹${(Number(x.price||0)*x.qty).toLocaleString('en-IN')}</span></div>`).join('')+`<div class="summary-line summary-total"><span>Order total</span><span>₹${total.toLocaleString('en-IN')}</span></div>`; document.getElementById('amountDue').textContent='₹'+total.toLocaleString('en-IN');
+      if(!cart.length){el.innerHTML='<div class="summary-line"><span>No items selected</span><span>—</span></div>';document.getElementById('amountDue').textContent='₹0';generateUPIQR(0);return}
+      const total=cart.reduce((s,x)=>s+(Number(x.price||0)*x.qty),0); el.innerHTML=cart.map(x=>`<div class="summary-line"><span>${escapeHtml(x.name)}<br><small>${escapeHtml(x.category)} · ${escapeHtml(x.size||'')} · Qty ${x.qty}</small></span><span>₹${(Number(x.price||0)*x.qty).toLocaleString('en-IN')}</span></div>`).join('')+`<div class="summary-line summary-total"><span>Order total</span><span>₹${total.toLocaleString('en-IN')}</span></div>`; document.getElementById('amountDue').textContent='₹'+total.toLocaleString('en-IN'); generateUPIQR(total);
     }
     function toggleCart(force){const p=document.getElementById('cartPanel');if(force===true)p.classList.add('open');else p.classList.toggle('open')}
     function goToCheckout(){toggleCart(false);document.getElementById('checkout').scrollIntoView({behavior:'smooth',block:'start'})}
@@ -170,13 +177,40 @@
     function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
     function escapeJs(s){return String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'")}
 
-    // Payment configuration: the real merchant QR was not included with the uploaded product photos.
-    // If upi-qr.png is added later, this automatically displays it.
-    const qr=document.getElementById('qrImage');
-    qr.onerror=()=>{qr.style.display='none';document.getElementById('qrPlaceholder').style.display='grid'};
-    qr.onload=()=>{qr.style.display='block';document.getElementById('qrPlaceholder').style.display='none'};
-    qr.src=QR_FILE;
-    document.getElementById('upiIdText').textContent='UPI ID: '+UPI_ID;
+    function getOrderTotal(){return cart.reduce((s,x)=>s+(Number(x.price||0)*x.qty),0)}
+
+    function buildUPILink(total){
+      if(!UPI_ID || UPI_ID==='ADD-YOUR-UPI-ID' || total<=0) return '';
+      const params=new URLSearchParams({pa:UPI_ID,pn:UPI_NAME,am:Number(total).toFixed(2),cu:UPI_CURRENCY,tn:'Cott-On Bedsheets Order'});
+      return 'upi://pay?'+params.toString();
+    }
+
+    function generateUPIQR(total){
+      const amount=Number(total)||0;
+      const amountEl=document.getElementById('amountDue');
+      const qrHost=document.getElementById('qrCode');
+      const placeholder=document.getElementById('qrPlaceholder');
+      const openBtn=document.getElementById('upiOpenButton');
+      document.getElementById('upiIdText').textContent='UPI ID: '+UPI_ID;
+      document.getElementById('upiNameText').textContent='Payee: '+UPI_NAME;
+      amountEl.textContent='₹'+amount.toLocaleString('en-IN');
+      qrHost.innerHTML='';
+      if(amount<=0 || !UPI_ID || UPI_ID==='ADD-YOUR-UPI-ID' || typeof QRCode==='undefined'){
+        qrHost.style.display='none'; placeholder.style.display='grid'; openBtn.disabled=true;
+        placeholder.innerHTML=amount<=0 ? 'ADD ITEMS TO YOUR CART<br/>TO GENERATE YOUR PAYMENT QR' : (typeof QRCode==='undefined' ? 'QR LIBRARY COULD NOT LOAD<br/>CHECK YOUR INTERNET CONNECTION' : 'ADD YOUR REAL UPI ID<br/>IN THE WEBSITE SETTINGS');
+        return;
+      }
+      const upiLink=buildUPILink(amount);
+      new QRCode(qrHost,{text:upiLink,width:240,height:240,colorDark:'#241914',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.M});
+      qrHost.style.display='block'; placeholder.style.display='none'; openBtn.disabled=false;
+    }
+
+    function openUPIApp(){
+      const total=getOrderTotal();
+      const link=buildUPILink(total);
+      if(!link){alert('Please add items and configure the real Cott-On UPI ID first.');return}
+      window.location.href=link;
+    }
 
     document.getElementById('orderForm').addEventListener('submit',function(e){
       if(!cart.length){e.preventDefault();alert('Please add at least one item to your cart.');return}
